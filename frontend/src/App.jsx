@@ -1,9 +1,10 @@
 import React from "react";
+import HomePage from "./pages/homePage.jsx"
 
 const App = () => {
     return (
         <div>
-            <h1 className="text-3xl text-red-500">Perush</h1>
+            <HomePage />
         </div>
     );
 };
